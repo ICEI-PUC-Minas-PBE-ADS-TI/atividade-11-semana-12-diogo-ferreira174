@@ -4,12 +4,20 @@ Nesta atividade, vamos trabalhar com uma API de mercado para montar uma interfac
 
 ## Informações Gerais
 
-- Nome:
-- Matrícula:
+- Nome: Diogo Vieira Teodoro Ferreira
+- Matrícula: 1645894
+- Endpoint escolihdo: Filmes Populares
+- Descrição do fluxo: 
+    Requisição: fetchMovies(query) faz fetch à API (endpoint de busca ou populares) e obtém JSON.
+    Tratamento: o JSON é convertido em objetos, filtrado/ordenado (applySort) e armazenado em movies; showMessage atualiza o estado (carregando/erro/empty).
+    Renderização: renderMovies limpa #movie-list, cria cards via createMovieCard (poster, título, ano, nota, sinopse curta) e anexa ao container.
 
 ## Prints do trabalho
 
-<<  COLOQUE A IMAGEM - LISTA DE CARDS COM FILMES - AQUI >>
+<< LISTA DE CARDS COM FILMES >>
 
-<<  COLOQUE A IMAGEM - RESULTADO DE UMA PESQUISA - AQUI >>
+![alt text](image.png)
 
+<< RESULTADO DE UMA PESQUISA >>
+
+![alt text](image-1.png)
